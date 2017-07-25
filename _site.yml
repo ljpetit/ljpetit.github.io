@@ -1,0 +1,20 @@
+name: "Leonardo's website"
+navbar:
+  title: "Leonardo J. Petit"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Contacts"
+      href: contact.html
+    - text: "Project"
+      href: project.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
+output_dir: "."
